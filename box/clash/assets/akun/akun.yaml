@@ -1,1 +1,17 @@
 proxies:
+  - name: Test
+    server: 104.18.20.94
+    port: 443
+    type: vmess
+    uuid: 758a4d54-72bb-4d57-8222-0cb28cc005ba
+    alterId: 0
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: v2ray2.udpgw.com
+    network: ws
+    ws-opts: 
+      path: /howdy
+      headers: 
+        Host: v2ray2.udpgw.com
+    udp: true
