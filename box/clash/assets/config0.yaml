@@ -47,7 +47,7 @@ proxy-providers:
   Server:
     type: http
     behavior: classical
-    url: "https://raw.githubusercontent.com/fyn170/conf-singbox/box/assets/akun/akun.yaml
+    url: "https://raw.githubusercontent.com/fyn170/conf-singbox/main/box/clash/assets/akun/akun.yaml"
     path: "./assets/akun/akun.yaml"
     health-check:
       enable: true
